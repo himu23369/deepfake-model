@@ -157,7 +157,12 @@ def generate_lime_explanation():
         "lime_boundaries": f"/path/to/{boundaries_path}"
     })
 
+# if __name__ == '__main__':
+#     app.run(host='127.0.0.1', port=5000)
+
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5000)
+    # Fetch port from environment variable, default to 5000 if not set
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='127.0.0.1', port=port)
 
 
