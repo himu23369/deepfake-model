@@ -1,0 +1,15 @@
+Flask==3.1.0
+Flask_Cors==4.0.1
+Keras_Preprocessing==1.1.2
+librosa==0.10.1
+lime==0.2.0.1
+matplotlib==3.7.2
+numpy==1.24.3
+opencv_contrib_python==4.9.0.80
+opencv_python==4.6.0.66
+opencv_python_headless==4.7.0.72
+Pillow==11.0.0
+skimage==0.0
+tensorflow==2.17.0
+tensorflow_intel==2.17.0
+Werkzeug==3.1.3
